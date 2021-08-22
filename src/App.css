@@ -1,0 +1,88 @@
+body{
+  background-color: #c4d7d1;
+}
+
+.App {
+  text-align: center;
+}
+
+/* .tabslist{
+  border: none;
+} */
+
+.heading{
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.GenreTabs{
+  cursor: pointer;
+  border-radius: 0px;
+  padding: 0.5rem  1rem;
+  border: 1px solid black;
+  margin: 1rem 0.3rem;
+  background-color: #fff;
+  color: #242424;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.GenreTabs:hover{
+  background-color: rgb(204, 204, 204);
+}
+
+.booksContainer{
+  display: inline-flex;
+  min-width: 550px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+ul{
+  display: contents;
+}
+
+.books{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid black;
+  width: 210px;
+  /* margin: 1rem 0rem; */
+  border-radius: 5px;
+  background-color: #8ec4c4;
+  margin: 0px 20px;
+  color: #000;
+}
+
+.bookName{
+  font-size: 20px;
+  font-weight: 700;
+  /* color: #fff; */
+  margin-bottom: 30px;
+  height: 60px;
+}
+
+.bookRating{
+  /* color: #fff; */
+  align-self: baseline;
+  margin-bottom: 30px;
+}
+
+.btnContainer{
+  width: 100%;
+  display: flex;
+}
+
+.buynowBtn{
+  padding: 7px 7px 10px 7px;
+  width: 100%;
+  background-color: #efc98d;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid black;
+  color: #000;
+}
